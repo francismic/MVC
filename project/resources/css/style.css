@@ -1,0 +1,115 @@
+
+  :root{
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6B7280;
+    --light: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--dark);
+    color: #FFF;
+}
+
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+  
+  .container {
+    margin: 50px;
+  }
+  
+  table.listing {
+      border-spacing: 0px;
+      width: 80%;
+      border: 1px solid grey;
+  }
+  
+  table.listing th, table.listing td {
+      border: 1px solid grey;
+      height: 30px;
+      padding: 5px;
+  }
+  
+  input, select {
+    padding: 6px;
+    display:block;
+    margin: 5px;
+  }
+  
+  .navigation {
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    background: #111827;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+   
+  .navigation a:hover {
+    background: #8B5Cf6;
+  }
+
+  section{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to left,#8B5Cf6, #EC4899);
+    border-image-slice: 1;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+  h1{
+    color: #EC4899;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    color: #8B5Cf6;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+  }
+
+  h5{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #8B5Cf6;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+  p{
+    color: #EEE;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+
